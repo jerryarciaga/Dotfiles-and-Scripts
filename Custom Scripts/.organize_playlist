@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Assumptions: Folders are albums; MP3 files are song/podcast titles
+# Only MP3 files in this entire directory
+# Loop through folders in entire directory
+
+for folder in *; do
+  album="$folder";
+  if [ -d "$album" ]; then
+    cd "$album";
+    for file in *; do
+      audio_file="$file";
+      audio_title="${audio_file::-4}"
+      id3v2 -A "$album" -t "$audio_title" -T\"\" "$audio_file";
+    done
+    cd ..;
+  fi;
+done

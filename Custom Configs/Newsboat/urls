@@ -1,0 +1,51 @@
+--------------------------------------------------
+CTFs-and-Other-Events-----------------------------
+--------------------------------------------------
+"https://ctftime.org/event/list/upcoming/rss/" "CTF" "~CTFTime Upcoming Events"
+"https://ctftime.org/writeups/rss/" "CTF" "~CTFTime Event Writeups"
+"https://ctftime.org/event/list/archive/rss/" "CTF" "~CTFTime Past Events"
+
+--------------------------------------------------
+Cyber-Security-Blogs-and-Podcasts-----------------
+--------------------------------------------------
+https://feeds.megaphone.fm/darknetdiaries "Cyber Security" "Podcasts" "~Darknet Diaries"
+"https://feeds.hackablepodcast.com/hackable" "Cyber Security" "Podcasts" "~Hackable"
+"https://liveoverflow.com/rss/" "Cyber Security" "Blogs" "~LiveOverflow"
+https://blog.tryhackme.com/rss/ "Cyber Security" "Blogs" "~TryHackMe Blog"
+https://www.hackerone.com/blog.rss "Blogs" "Cyber Security"
+https://www.kitploit.com//feeds/posts/default "Blogs" "Cyber Security"
+--------------------------------------------------
+Linux-and-Programming-Blogs-and-Podcasts----------
+--------------------------------------------------
+"https://realpython.com/podcasts/rpp/feed" "Programming" "Podcasts" "~Real Python"
+"https://python-bloggers.com/feed" "Programming" "Blogs" "~Python Bloggers"
+"https://c-for-dummies.com/blog/?feed=rss2" "Programming" "Blogs" "~C for Dummies"
+"https://www.tecmint.com/feed/" "Linux" "Blogs" "~Tecmint"
+-------------------------------------------------- 
+News----------------------------------------------
+--------------------------------------------------
+"https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" "News" "~New York Times"
+"https://rss.nytimes.com/services/xml/rss/nyt/World.xml" "News" "~New York Times World News"
+"https://rss.nytimes.com/services/xml/rss/nyt/US.xml" "News" "~New York Times US News"
+"https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml" "News/Tech" "~New York Times Tech"
+"https://rss.nytimes.com/services/xml/rss/nyt/PersonalTech.xml" "News/Tech" "~New York Times Personal Tech"
+"https://www.latimes.com/local/rss2.0.xml" "News" "~Los Angeles Times"
+"https://www.latimes.com/business/technology/rss2.0.xml#nt=1col-7030col1" "News/Tech" "~Los Angeles Times Tech"
+--------------------------------------------------
+Government/Military-------------------------------
+--------------------------------------------------
+"http://feeds.feedburner.com/army-times/news/your-army" "News" "Military" "~Army Times"
+"http://feeds.feedburner.com/army-times/education-transition" "Military" "~Military Education and Transition"
+"https://feeds.feedburner.com/fifth-domain/home" "Military" "Cyber Security" "~The Fifth Domain: Cyber"
+"https://feeds.feedburner.com/fifth-domain/dod" "Military" "Cyber Security" "~The Fifth Domain: Cyber(DoD)"
+"https://feeds.feedburner.com/fifth-domain/workforce" "Military" "Cyber Security" "~The Fifth Domain: Cyber(Workforce)"
+--------------------------------------------------
+Reddit--------------------------------------------
+--------------------------------------------------
+"https://www.reddit.com/r/hacking/.rss?sort=top" "Cyber Security" "Reddit" "~r/Hacking"
+"https://www.reddit.com/r/cyber/.rss?sort=top" "Cyber Security" "Reddit" "~r/Cyber"
+"https://www.reddit.com/r/linux/.rss?sort=top" "Reddit" "Linux" "~r/Linux"
+"https://www.reddit.com/r/Python/.rss?sort=top "Reddit" "Programming" "~r/Python"
+"https://www.reddit.com/r/learnpython/.rss?sort=top "Reddit" "Programming" "~r/Learnpython"
+"https://www.reddit.com/r/AskReddit/.rss?sort=top" "Reddit" "~r/AskReddit"
+"https://www.reddit.com/r/jokes/.rss?sort=top "Reddit" "~r/Jokes"

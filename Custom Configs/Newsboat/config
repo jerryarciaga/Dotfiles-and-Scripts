@@ -1,0 +1,11 @@
+auto-reload yes
+reload-threads 20
+
+#browser "lynx -use_mouse -restrictions=all"a
+browser "elinks -anonymous 1"
+
+download-full-page yes
+download-path "~/Documents/Podcasts/%n"
+download-filename-format "%t.mp3"
+max-downloads 20
+player "cmus"
