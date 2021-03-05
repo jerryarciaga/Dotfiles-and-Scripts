@@ -11,7 +11,7 @@ for folder in *; do
     for file in *; do
       audio_file="$file";
       audio_title="${audio_file::-4}"
-      id3v2 -A "$album" -t "$audio_title" -T\"\" "$audio_file";
+      id3v2 -A "$album" -t "$audio_title" -T\"\" --TPE1 "$album" "$audio_file";
     done
     cd ..;
   fi;
