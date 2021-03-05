@@ -2,7 +2,7 @@ auto-reload yes
 reload-threads 20
 
 #browser "lynx -use_mouse -restrictions=all"a
-browser "elinks -anonymous 1"
+browser "w3m -no-cookie"
 
 download-full-page yes
 download-path "~/Documents/Podcasts/%n"
