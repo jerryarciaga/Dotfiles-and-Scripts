@@ -15,7 +15,7 @@ https://blog.tryhackme.com/rss/ "Cyber Security" "Blogs" "~TryHackMe Blog"
 https://www.hackerone.com/blog.rss "Blogs" "Cyber Security"
 https://www.kitploit.com//feeds/posts/default "Blogs" "Cyber Security"
 --------------------------------------------------
-Tech-Blogs-and-Podcasts---------------------------
+Linux-and-Programming-Blogs-and-Podcasts----------
 --------------------------------------------------
 "https://realpython.com/podcasts/rpp/feed" "Programming" "Podcasts" "~Real Python"
 "https://python-bloggers.com/feed" "Programming" "Blogs" "~Python Bloggers"
@@ -43,7 +43,7 @@ Government/Military-------------------------------
 Reddit--------------------------------------------
 --------------------------------------------------
 "https://www.reddit.com/r/hacking/.rss?sort=top" "Cyber Security" "Reddit" "~r/Hacking"
-"https://www.reddit.com/r/cyber/.rss?sort=top" "Cyber Security" "Reddit" "~r/Cyber"
+"https://www.reddit.com/r/cybersecurity/.rss?sort=new" "Cyber Security" "Reddit" "~r/Cybersecurity"
 "https://www.reddit.com/r/linux/.rss?sort=top" "Reddit" "Linux" "~r/Linux"
 "https://www.reddit.com/r/Python/.rss?sort=top "Reddit" "Programming" "~r/Python"
 "https://www.reddit.com/r/learnpython/.rss?sort=top "Reddit" "Programming" "~r/Learnpython"
