@@ -1,7 +1,7 @@
 auto-reload yes
 reload-threads 20
+max-items 150
 
-#browser "lynx -use_mouse -restrictions=all"a
 browser "w3m -no-cookie"
 
 download-full-page yes
