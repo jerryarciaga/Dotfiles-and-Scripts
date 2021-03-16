@@ -10,16 +10,16 @@ Cyber-Security-Blogs-and-Podcasts-----------------
 --------------------------------------------------
 https://feeds.megaphone.fm/darknetdiaries "Cyber Security" "Podcasts" "~Darknet Diaries"
 "https://feeds.hackablepodcast.com/hackable" "Cyber Security" "Podcasts" "~Hackable"
-"https://liveoverflow.com/rss/" "Cyber Security" "Blogs" "~LiveOverflow"
-https://blog.tryhackme.com/rss/ "Cyber Security" "Blogs" "~TryHackMe Blog"
 https://www.hackerone.com/blog.rss "Blogs" "Cyber Security"
+"http://feeds.feedburner.com/TheHackersNews?format=xml" "Cyber Security" "Blogs" "~The Hacker News"
 https://www.kitploit.com//feeds/posts/default "Blogs" "Cyber Security"
 --------------------------------------------------
-Tech-Blogs-and-Podcasts---------------------------
+Linux-and-Programming-Blogs-and-Podcasts----------
 --------------------------------------------------
 "https://realpython.com/podcasts/rpp/feed" "Programming" "Podcasts" "~Real Python"
 "https://python-bloggers.com/feed" "Programming" "Blogs" "~Python Bloggers"
 "https://c-for-dummies.com/blog/?feed=rss2" "Programming" "Blogs" "~C for Dummies"
+"https://feeds.linuxconfig.org/linuxconfig&x=1" "Linux" "Blogs" "~Linux Config"
 "https://www.tecmint.com/feed/" "Linux" "Blogs" "~Tecmint"
 -------------------------------------------------- 
 News----------------------------------------------
@@ -43,7 +43,7 @@ Government/Military-------------------------------
 Reddit--------------------------------------------
 --------------------------------------------------
 "https://www.reddit.com/r/hacking/.rss?sort=top" "Cyber Security" "Reddit" "~r/Hacking"
-"https://www.reddit.com/r/cyber/.rss?sort=top" "Cyber Security" "Reddit" "~r/Cyber"
+"https://www.reddit.com/r/cybersecurity/.rss?sort=new" "Cyber Security" "Reddit" "~r/Cybersecurity"
 "https://www.reddit.com/r/linux/.rss?sort=top" "Reddit" "Linux" "~r/Linux"
 "https://www.reddit.com/r/Python/.rss?sort=top "Reddit" "Programming" "~r/Python"
 "https://www.reddit.com/r/learnpython/.rss?sort=top "Reddit" "Programming" "~r/Learnpython"
