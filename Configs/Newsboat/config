@@ -1,6 +1,6 @@
 auto-reload yes
 reload-threads 20
-max-items 150
+max-items 200
 
 browser "w3m -no-cookie"
 
