@@ -2,7 +2,7 @@ auto-reload yes
 reload-threads 20
 max-items 200
 
-browser "w3m -no-cookie"
+browser "w3m -s -no-cookie"
 
 download-full-page yes
 download-path "~/Documents/Podcasts/%n"
