@@ -4,7 +4,13 @@ CTFs-and-Other-Events-----------------------------
 "https://ctftime.org/event/list/upcoming/rss/" "CTF" "~CTFTime Upcoming Events"
 "https://ctftime.org/writeups/rss/" "CTF" "~CTFTime Event Writeups"
 "https://ctftime.org/event/list/archive/rss/" "CTF" "~CTFTime Past Events"
-
+--------------------------------------------------
+Information-Technology-Blogs-and-Podcasts---------
+--------------------------------------------------
+"https://www.itprc.com/network-design/feed/" "IT" "Blogs" "~ITPRC - Network Design"
+"https://www.itprc.com/network-monitoring/feed/" "IT" "Blogs" "~ITPRC - Network Monitoring"
+"https://www.itprc.com/network-security/feed/" "IT" "Blogs" "~ITPRC - Network Security"
+"https://www.itprc.com/network-hardware/feed/" "IT" "Blogs" "~ITPRC - Network Hardware"
 --------------------------------------------------
 Cyber-Security-Blogs-and-Podcasts-----------------
 --------------------------------------------------
