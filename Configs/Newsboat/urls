@@ -17,7 +17,8 @@ Cyber-Security-Blogs-and-Podcasts-----------------
 "https://anchor.fm/s/5392e5c/podcast/rss" "Cyber Security" "Podcasts" "~The David Bombal Show"
 https://feeds.megaphone.fm/darknetdiaries "Cyber Security" "Podcasts" "~Darknet Diaries"
 "https://feeds.hackablepodcast.com/hackable" "Cyber Security" "Podcasts" "~Hackable"
-https://www.hackerone.com/blog.rss "Blogs" "Cyber Security"
+"https://www.hackerone.com/blog.rss" "Blogs" "Cyber Security" "~HackerOne"
+"https://www.eff.org/rss/updates.xml" "Blogs" "Cyber Security" "~The Electronic Frontier Foundation"
 "http://feeds.feedburner.com/TheHackersNews?format=xml" "Cyber Security" "Blogs" "~The Hacker News"
 https://www.kitploit.com//feeds/posts/default "Blogs" "Cyber Security"
 --------------------------------------------------
