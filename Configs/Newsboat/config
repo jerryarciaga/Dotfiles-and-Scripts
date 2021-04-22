@@ -7,8 +7,6 @@ max-items 200
 unbind-key q
 unbind-key j
 unbind-key k
-unbind-key J
-unbind-key K
 
 # bind keys - vim style
 bind-key j down
