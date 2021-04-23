@@ -1,6 +1,6 @@
 auto-reload yes
 reload-threads 20
-max-items 200
+max-items 600
 
 
 # unbind keys
