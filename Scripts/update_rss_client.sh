@@ -1,19 +1,32 @@
 #!/bin/bash
 
-/usr/bin/newsboat -E /home/jerry/.newsboat/read.txt
+status_update () {
+    if [ $? -eq 0 ]; then
+        printf "[COMPLETE] $1\n"
+    else
+        printf "[FAIL] $2\n"
+        exit 1
+    fi
+}
 
-/usr/bin/rsync -avze ssh /home/jerry/.newsboat/read.txt \
-    jerry@therealraspberrypi:~/.newsboat/read.txt
+/usr/bin/newsboat -E ~/.newsboat/read.txt &>/dev/null
+status_update "Updated read RSS Feeds" "RSS Feeds not updated"
 
-/usr/bin/ssh jerry@therealraspberrypi "newsboat -I ~/.newsboat/read.txt"
+/usr/bin/rsync -avze ssh ~/.newsboat/read.txt \
+    jerry@therealraspberrypi:~/.newsboat/read.txt &>/dev/null
+status_update "Read list forwarded to Raspberry Pi Server" \
+    "Check connection to the Raspberry Pi Sever"
 
-/usr/bin/rsync -avze jerry@therealraspberrypi:~/.newsboat/cache.db \
-    /home/jerry/.newsboat/cache.db
+/usr/bin/ssh jerry@therealraspberrypi "newsboat -I ~/.newsboat/read.txt" &>/dev/null
+status_update "Updated cache with read lists" "Cache not updated"
 
-/usr/bin/newsboat -x reload
+/usr/bin/rsync -avze ssh jerry@therealraspberrypi:~/.newsboat/cache.db \
+    ~/.newsboat/cache.db &>/dev/null
+status_update "Cache downloaded from Raspberry Pi Server" \
+    "Unable to download cache"
 
-if [ $? -eq 0 ]; then
-    printf "RSS Update Done\n"
-else
-    printf "RSS Update Fail\n"
-fi
+/usr/bin/newsboat -x reload &>/dev/null
+status_update "RSS Update Done" "RSS Update Fail"
+
+/usr/bin/rm ~/.newsboat/read.txt
+exit 0
