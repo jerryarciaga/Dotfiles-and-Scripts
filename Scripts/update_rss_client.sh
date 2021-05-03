@@ -17,7 +17,7 @@ status_update "Updated read RSS Feeds" "RSS Feeds not updated"
 status_update "Read list forwarded to Raspberry Pi Server" \
     "Check connection to the Raspberry Pi Sever"
 
-/usr/bin/ssh jerry@therealraspberrypi "newsboat -I ~/.newsboat/read.txt" &>/dev/null
+/usr/bin/ssh jerry@therealraspberrypi "/usr/bin/newsboat -I ~/.newsboat/read.txt" &>/dev/null
 status_update "Updated cache with read lists" "Cache not updated"
 
 /usr/bin/rsync -avze ssh jerry@therealraspberrypi:~/.newsboat/cache.db \
@@ -28,5 +28,7 @@ status_update "Cache downloaded from Raspberry Pi Server" \
 /usr/bin/newsboat -x reload &>/dev/null
 status_update "RSS Update Done" "RSS Update Fail"
 
+printf "Deleting RSS Read List Files...\n"
+/usr/bin/ssh jerry@therealraspberrypi "/usr/bin/rm ~/.newsboat/read.txt"
 /usr/bin/rm ~/.newsboat/read.txt
 exit 0
