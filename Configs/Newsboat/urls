@@ -60,3 +60,7 @@ Reddit--------------------------------------------
 "https://www.reddit.com/r/learnpython/.rss?sort=top "Reddit" "Programming" "~r/Learnpython"
 "https://www.reddit.com/r/AskReddit/.rss?sort=top" "Reddit" "~r/AskReddit"
 "https://www.reddit.com/r/jokes/.rss?sort=top "Reddit" "~r/Jokes"
+--------------------------------------------------
+Other---------------------------------------------
+--------------------------------------------------
+"https://feeds.feedburner.com/ScsSoftwaresBlog?format=xml" "Gaming" "~American Truck Simulator"
