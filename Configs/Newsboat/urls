@@ -11,11 +11,13 @@ Information-Technology-Blogs-and-Podcasts---------
 "https://www.itprc.com/network-monitoring/feed/" "IT" "Blogs" "~ITPRC - Network Monitoring"
 "https://www.itprc.com/network-security/feed/" "IT" "Blogs" "~ITPRC - Network Security"
 "https://www.itprc.com/network-hardware/feed/" "IT" "Blogs" "~ITPRC - Network Hardware"
+"https://artofnetworkengineering.com/category/podcast/feed/" "IT" "Podcasts" "~Art of Network Engineering"
 --------------------------------------------------
 Cyber-Security-Blogs-and-Podcasts-----------------
 --------------------------------------------------
+"https://feeds.megaphone.fm/darknetdiaries" "Cyber Security" "Podcasts" "~Darknet Diaries"
+"https://opensourcesecuritypodcast.libsyn.com/rss" "Cyber Security" "Podcasts" "~Open Source Security"
 "https://anchor.fm/s/5392e5c/podcast/rss" "Cyber Security" "Podcasts" "~The David Bombal Show"
-https://feeds.megaphone.fm/darknetdiaries "Cyber Security" "Podcasts" "~Darknet Diaries"
 "https://feeds.hackablepodcast.com/hackable" "Cyber Security" "Podcasts" "~Hackable"
 "https://www.hackerone.com/blog.rss" "Blogs" "Cyber Security" "~HackerOne"
 "https://www.eff.org/rss/updates.xml" "Blogs" "Cyber Security" "~The Electronic Frontier Foundation"
