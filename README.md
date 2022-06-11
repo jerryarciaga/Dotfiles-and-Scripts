@@ -2,11 +2,12 @@
 
 ## Description
 Just like the repo name states, this is where I store my dotfiles and custom scipts
-for my Arch Linux + i3 layout. I use the same config files on both laptops that I have
-so far.
+for my Arch Linux + i3 layout. Since I like Genshin Impact, I figured I'd use it as
+a theme for my work. My lockscreen takes a screenshot, blurs it then overlays it
+with a random character splash art to simulate the gacha aspect of the game.
 
 ### Software Used
-- ***i3-wm, i3status, i3lock*** - The basis of my mini ricefield
+- ***i3-wm, i3status, i3lock*** - My rice field
 - ***picom*** - Effects such as transparency/opacity and window transition
 - ***feh*** - Wallpaper setter
 - ***imagemagick, scrot*** - Tools to setup my lockscreen
@@ -31,11 +32,14 @@ sudo pacman -S i3-wm i3status i3lock picom feh imagemagick scrot alacritty
 Clone this repo
 ```
 git clone git@github.com:jerryarciaga/Dotfiles-and-Scripts
+cd Dotfiles-and-Scripts
 ```
 Copy config files into your config file directories:
-- .config/i3
-- .config/i3status
-- .config/picom
+```
+cp -r Configs/i3 ~/.config/i3
+cp -r Configs/i3status ~/.config/i3status
+cp -r Configs/picom ~/.config/picom
+```
 
 Don't forget to add these lines to your .profile (or your preferred startup file)
 ```
@@ -47,5 +51,5 @@ For wallpapers and lockscreens:
 ```
 mkdir ~/.wallpaper # Put your favorite wallpaper here
 mkdir ~/.wallpaper/gacha # Put your lockscreen overlays here
-cp lockscreen.sh ~/.wallpaper/lockscreen.sh # i3lock with extra steps
+cp Scripts/lockscreen.sh ~/.wallpaper/lockscreen.sh # i3lock with extra steps
 ```
