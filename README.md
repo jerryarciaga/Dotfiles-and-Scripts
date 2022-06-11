@@ -19,6 +19,6 @@ I only store them in my repo for easier access.
 ## Getting Started
 Btw I use Arch Linux. If you use another distro, you may or may not find these in your
 package manager.
-'''
+```
 pacman -S i3-wm i3status i3lock picom feh imagemagick scrot alacritty
-'''
+```
