@@ -16,7 +16,7 @@ so far.
 - [Minimalist Mondstadt](https://www.reddit.com/r/wallpaper/comments/pda3hx/3840_x_2160_genshin_impact_minimalism_landscape/)
 - [Elemental Icon (Dark Minimalist)](https://www.reddit.com/r/Genshin_Impact/comments/jbextw/i_made_2_wallpapers_of_the_genshin_elements/)
 - [Character Splash Art](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)
-to use as lockscreen overlays.
+to use as lockscreen overlays. I used ImageMagick to resize images to fit my screen well.
 
 ### Disclaimer
 The wallpapers, overlay art and other images that I use are not in any way my property.
