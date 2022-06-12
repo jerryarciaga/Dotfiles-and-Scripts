@@ -53,7 +53,5 @@ picom -b
 
 For wallpapers and lockscreens:
 ```
-$ mkdir ~/.wallpaper # Put your favorite wallpaper here
-$ mkdir ~/.wallpaper/gacha # Put your lockscreen overlays here
-$ cp Scripts/lockscreen.sh ~/.wallpaper/lockscreen.sh # i3lock with extra steps
+$ cp -r Wallpaper ~/.wallpaper
 ```
