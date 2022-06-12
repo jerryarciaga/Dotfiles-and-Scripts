@@ -10,6 +10,7 @@ with a random character splash art to simulate the gacha aspect of the game.
 - ***i3-wm, i3status, i3lock*** - My rice field
 - ***picom*** - Effects such as transparency/opacity and window transition
 - ***feh*** - Wallpaper setter
+- ***xautolock, xss-lock*** - Screen locker
 - ***imagemagick, scrot*** - Tools to setup my lockscreen
 - ***alacritty*** - My default (favorite) terminal
 - ***ttf-font-awesome*** - Font Awesome icons for my statusbar
@@ -28,7 +29,7 @@ I only store them in my repo for easier access.
 Btw I use Arch. If you use another distro, you may or may not find these in your
 package manager.
 ```
-# pacman -S i3-wm i3status i3lock picom feh imagemagick scrot alacritty ttf-font-awesome
+# pacman -S i3-wm i3status i3lock picom feh imagemagick scrot alacritty ttf-font-awesome xautolock xss-lock
 ```
 Clone this repo
 ```
