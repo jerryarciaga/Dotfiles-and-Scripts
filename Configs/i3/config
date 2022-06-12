@@ -201,7 +201,7 @@ bar {
 ## System
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
-
+bindsym Print exec --no-startup-id scrot /tmp/screenshot.png
 
 ## Software
 bindsym $mod+b exec /usr/bin/firefox
