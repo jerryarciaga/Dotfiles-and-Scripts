@@ -12,6 +12,7 @@ with a random character splash art to simulate the gacha aspect of the game.
 - ***feh*** - Wallpaper setter
 - ***imagemagick, scrot*** - Tools to setup my lockscreen
 - ***alacritty*** - My default (favorite) terminal
+- ***ttf-font-awesome*** - Font Awesome icons for my statusbar
 
 ### Images Used
 - [Minimalist Mondstadt](https://www.reddit.com/r/wallpaper/comments/pda3hx/3840_x_2160_genshin_impact_minimalism_landscape/)
@@ -27,7 +28,7 @@ I only store them in my repo for easier access.
 Btw I use Arch. If you use another distro, you may or may not find these in your
 package manager.
 ```
-sudo pacman -S i3-wm i3status i3lock picom feh imagemagick scrot alacritty
+sudo pacman -S i3-wm i3status i3lock picom feh imagemagick scrot alacritty ttf-font-awesome
 ```
 Clone this repo
 ```
