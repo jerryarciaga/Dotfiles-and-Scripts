@@ -1,7 +1,7 @@
 # Dotfiles-and-Scripts
 
 ## Description
-Just like the repo name states, this is where I store my dotfiles and custom scipts
+Just like the repo name states, this is where I store my dotfiles and custom scripts
 for my Arch Linux + i3 layout. Since I like Genshin Impact, I figured I'd use it as
 a theme for my work. My lockscreen takes a screenshot, blurs it then overlays it
 with a random character splash art to simulate the gacha aspect of the game.
