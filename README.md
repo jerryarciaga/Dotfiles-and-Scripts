@@ -39,7 +39,9 @@ $ cd Dotfiles-and-Scripts
 Copy config files into your config file directories:
 ```
 $ cp -r Configs/i3 ~/.config/i3
-$ cp -r Configs/i3status ~/.config/i3status
+$ cp Configs/i3status/config ~/.config/i3status/config # If you want to display both connections
+$ cp Configs/i3status/config_wifi_only ~/.config/i3status/config # Only wifi connections displayed
+$ cp Configs/i3status/config_wired_only ~/.config/i3status/config # Only wired connections displayed
 $ cp -r Configs/picom ~/.config/picom
 ```
 
