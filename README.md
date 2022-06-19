@@ -7,7 +7,7 @@ a theme for my work. My lockscreen takes a screenshot, blurs it then overlays it
 with a random character splash art to simulate the gacha aspect of the game.
 
 ### Software Used
-- ***i3-wm, i3status, i3lock*** - My rice field
+- ***i3-wm, polybar, i3lock*** - My rice field
 - ***picom*** - Effects such as transparency/opacity and window transition
 - ***feh*** - Wallpaper setter
 - ***xautolock, xss-lock*** - Screen locker
@@ -16,7 +16,7 @@ with a random character splash art to simulate the gacha aspect of the game.
 - ***ttf-font-awesome*** - Font Awesome icons for my statusbar
 
 ### Images Used
-- [Minimalist Mondstadt](https://www.reddit.com/r/Genshin_Impact/comments/okqdv9/moon_over_monstadt/)
+- [Mondstadt](https://www.reddit.com/r/Genshin_Impact/comments/okqdv9/moon_over_monstadt/)
 - [Elemental Icon (Dark Minimalist)](https://www.reddit.com/r/Genshin_Impact/comments/jbextw/i_made_2_wallpapers_of_the_genshin_elements/)
 - [Character Splash Art](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)
 to use as lockscreen overlays. I used ImageMagick to resize images to fit my screen well.
@@ -29,7 +29,7 @@ I only store them in my repo for easier access.
 Btw I use Arch. If you use another distro, you may or may not find these in your
 package manager.
 ```
-# pacman -S i3-wm i3status i3lock picom feh imagemagick scrot alacritty ttf-font-awesome xautolock xss-lock
+# pacman -S i3-wm polybar i3lock picom feh imagemagick scrot alacritty ttf-font-awesome xautolock xss-lock
 ```
 Clone this repo
 ```
@@ -39,9 +39,7 @@ $ cd Dotfiles-and-Scripts
 Copy config files into your config file directories:
 ```
 $ cp -r Configs/i3 ~/.config/i3
-$ cp Configs/i3status/config ~/.config/i3status/config # If you want to display both connections
-$ cp Configs/i3status/config_wifi_only ~/.config/i3status/config # Only wifi connections displayed
-$ cp Configs/i3status/config_wired_only ~/.config/i3status/config # Only wired connections displayed
+$ cp Configs/polybar/config.ini ~/.config/polybar/config.ini # If you want to display both connections
 $ cp -r Configs/picom ~/.config/picom
 ```
 
@@ -55,3 +53,6 @@ For wallpapers and lockscreens:
 ```
 $ cp -r Wallpaper ~/.wallpaper
 ```
+
+Alternatively, you can also set up soft links so you don't have to copy and paste
+everytime I make an update (if you like living dangerously).
