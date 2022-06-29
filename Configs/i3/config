@@ -212,6 +212,7 @@ bindsym Shift+Print exec --no-startup-id rm /tmp/screenshot*.png
 
 ## Software
 bindsym $mod+b exec /usr/bin/firefox
+bindsym $mod+Shift+b exec /usr/bin/firefox '--private-window'
 
 
 exec --no-startup-id xautolock -time 5 -locker ~/.wallpaper/lockscreen.sh &
