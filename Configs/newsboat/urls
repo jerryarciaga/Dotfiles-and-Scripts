@@ -14,14 +14,14 @@ Information-Technology-Blogs-and-Podcasts---------
 "https://feeds.twit.tv/brickhouse.xml" "IT" "Cyber Security" "Podcasts" "~TWiT - This Week in Tech"
 "https://artofnetworkengineering.com/category/podcast/feed/" "IT" "Podcasts" "~Art of Network Engineering"
 --------------------------------------------------
-Cyber-Security-Blogs-and-Podcasts-----------------
+Cyber-Security-Blogs,-Podcasts-and-CVEs--------
 --------------------------------------------------
 "https://krebsonsecurity.com/feed/" "Cyber Security" "Blogs" "~Krebs On Security"
+"https://www.tenable.com/cve/feeds?sort=newest" "Cyber Security" "CVEs" "~Tenable CVEs (New)"
+"https://www.tenable.com/cve/feeds?sort=updated" "Cyber Security" "CVEs" "~Tenable CVEs (Updated)"
 "https://feeds.megaphone.fm/darknetdiaries" "Cyber Security" "Podcasts" "~Darknet Diaries"
 "https://opensourcesecuritypodcast.libsyn.com/rss" "Cyber Security" "Podcasts" "~Open Source Security"
 "https://anchor.fm/s/5392e5c/podcast/rss" "Cyber Security" "Podcasts" "~The David Bombal Show"
-"https://feeds.hackablepodcast.com/hackable" "Cyber Security" "Podcasts" "~Hackable"
-"https://feeds.twit.tv/sn.xml" "Cyber Security" "Podcasts" "~TWiT - Security Now"
 "https://www.hackerone.com/blog.rss" "Blogs" "Cyber Security" "~HackerOne"
 "https://www.eff.org/rss/updates.xml" "Blogs" "Cyber Security" "~The Electronic Frontier Foundation"
 "http://feeds.feedburner.com/TheHackersNews?format=xml" "Cyber Security" "Blogs" "~The Hacker News"
