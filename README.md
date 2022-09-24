@@ -18,7 +18,7 @@ with a random character splash art to simulate the gacha aspect of the game.
 ### Images Used
 - [Mondstadt](https://www.reddit.com/r/Genshin_Impact/comments/okqdv9/moon_over_monstadt/)
 - [Elemental Icon (Dark Minimalist)](https://www.reddit.com/r/Genshin_Impact/comments/jbextw/i_made_2_wallpapers_of_the_genshin_elements/)
-- [Character Splash Art](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)
+- [Element Logos](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)
 to use as lockscreen overlays. I used ImageMagick to resize images to fit my screen well.
 
 ### Disclaimer
