@@ -208,8 +208,13 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym $mod+Right exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 bindsym $mod+Left exec --no-startup-id brightnessctl set 5%-
+
+## Screenshot
 bindsym Print exec --no-startup-id scrot /tmp/screenshot.png
 bindsym Shift+Print exec --no-startup-id rm /tmp/screenshot*.png
+
+## Screenshot with cropping
+bindsym $mod+Shift+s exec --no-startup-id maim -s /tmp/screenshot.png
 
 ## Software
 bindsym $mod+b exec /usr/bin/firefox
