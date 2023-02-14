@@ -2,9 +2,8 @@
 
 ## Description
 Just like the repo name states, this is where I store my dotfiles and custom scripts
-for my Arch Linux + i3 layout. Since I like Genshin Impact, I figured I'd use it as
-a theme for my work. My lockscreen takes a screenshot, blurs it then overlays it
-with a random character splash art to simulate the gacha aspect of the game.
+for my Arch Linux + i3 layout. My lockscreen takes a screenshot, blurs it then
+overlays it with a random symbol.
 
 ### Software Used
 - ***i3-wm, polybar, i3lock*** - My rice field
@@ -23,13 +22,13 @@ to use as lockscreen overlays. I used ImageMagick to resize images to fit my scr
 
 ### Disclaimer
 The wallpapers, overlay art and other images that I use are not in any way my property.
-I only store them in my repo for easier access.
+I only store them in my repository for easier access.
 
 ## Getting Started
 Btw I use Arch. If you use another distro, you may or may not find these in your
 package manager.
 ```
-# pacman -S i3-wm polybar i3lock picom feh imagemagick scrot alacritty ttf-font-awesome xautolock xss-lock
+# pacman -S i3-wm polybar i3lock picom feh imagemagick scrot maim alacritty ttf-font-awesome xautolock xss-lock
 ```
 Clone this repo
 ```
@@ -38,9 +37,15 @@ $ cd Dotfiles-and-Scripts
 ```
 Copy config files into your config file directories:
 ```
-$ cp -r Configs/i3 ~/.config/i3
-$ cp Configs/polybar/config.ini ~/.config/polybar/config.ini # If you want to display both connections
-$ cp -r Configs/picom ~/.config/picom
+$ cp -r ./Configs/i3 ~/.config/i3
+$ cp ./Configs/polybar/config.ini ~/.config/polybar/config.ini # If you want to display both connections
+$ cp -r ./Configs/picom ~/.config/picom
+```
+
+Alternatively, you can make use of soft links for easier maintenance
+```
+$ ln -sf ~/.config/i3 ./Configs/i3
+$ ln -sf ~/.config/picom ./Config/picom
 ```
 
 Don't forget to add these lines to your .profile (or your preferred startup file)
@@ -51,8 +56,5 @@ picom -b
 
 For wallpapers and lockscreens:
 ```
-$ cp -r Wallpaper ~/.wallpaper
+$ cp -r ./Wallpaper ~/.wallpaper # Alternatively: $ ln -sf ~/.wallpaper ./Wallpaper 
 ```
-
-Alternatively, you can also set up soft links so you don't have to copy and paste
-everytime I make an update (if you like living dangerously).
