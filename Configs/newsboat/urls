@@ -50,11 +50,9 @@ News----------------------------------------------
 --------------------------------------------------
 Government/Military-------------------------------
 --------------------------------------------------
-"http://feeds.feedburner.com/army-times/news/your-army" "News" "Military" "~Army Times"
-"http://feeds.feedburner.com/army-times/education-transition" "Military" "~Military Education and Transition"
-"https://feeds.feedburner.com/fifth-domain/home" "Military" "Cyber Security" "~The Fifth Domain: Cyber"
-"https://feeds.feedburner.com/fifth-domain/dod" "Military" "Cyber Security" "~The Fifth Domain: Cyber(DoD)"
-"https://feeds.feedburner.com/fifth-domain/workforce" "Military" "Cyber Security" "~The Fifth Domain: Cyber(Workforce)"
+"https://www.armytimes.com/arc/outboundfeeds/rss/category/news/?outputType=xml" "News" "Military" "~Army Times"
+"https://www.armytimes.com/arc/outboundfeeds/rss/category/education-transition/?outputType=xml" "Military" "~Military Education and Transition"
+"https://www.c4isrnet.com/arc/outboundfeeds/rss/category/cyber/?outputType=xml" "Military" "Cyber Security" "~The Fifth Domain: Cyber"
 --------------------------------------------------
 Reddit--------------------------------------------
 --------------------------------------------------
