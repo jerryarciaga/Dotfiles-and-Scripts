@@ -41,7 +41,7 @@ Linux-and-Programming-Blogs-and-Podcasts----------
 News----------------------------------------------
 --------------------------------------------------
 "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" "News" "~New York Times"
-"https://rss.nytimes.com/services/xml/rss/nyt/World.xml" "News" "~New York Times World News"
+"https://www.nytimes.com/section/world/rss.xml" "News" "~New York Times World News"
 "https://rss.nytimes.com/services/xml/rss/nyt/US.xml" "News" "~New York Times US News"
 "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml" "News/Tech" "~New York Times Tech"
 "https://rss.nytimes.com/services/xml/rss/nyt/PersonalTech.xml" "News/Tech" "~New York Times Personal Tech"
@@ -67,4 +67,4 @@ Reddit--------------------------------------------
 Other---------------------------------------------
 --------------------------------------------------
 "https://feeds.feedburner.com/ScsSoftwaresBlog?format=xml" "Gaming" "~American Truck Simulator"
-"https://store.steampowered.com/feeds/news/app/621060/?cc=US&l=english&snr=1_2108_9__2107" "Gaming" "~PC Building Simulator"
+"https://www.pcbuildingsim.com/blog-feed.xml" "Gaming" "~PC Building Simulator"
