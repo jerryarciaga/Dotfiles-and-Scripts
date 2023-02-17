@@ -62,7 +62,7 @@ Reddit--------------------------------------------
 "https://www.reddit.com/r/Python/.rss?sort=top "Reddit" "Programming" "~r/Python"
 "https://www.reddit.com/r/learnpython/.rss?sort=top "Reddit" "Programming" "~r/Learnpython"
 "https://www.reddit.com/r/AskReddit/.rss?sort=top" "Reddit" "~r/AskReddit"
-"https://www.reddit.com/r/jokes/.rss?sort=top "Reddit" "~r/Jokes"
+"https://www.reddit.com/r/Jokes/.rss?sort=top" "Reddit" "~r/Jokes"
 --------------------------------------------------
 Other---------------------------------------------
 --------------------------------------------------
