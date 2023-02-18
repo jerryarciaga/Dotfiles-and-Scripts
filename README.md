@@ -40,12 +40,14 @@ Copy config files into your config file directories:
 $ cp -r ./Configs/i3 ~/.config/i3
 $ cp ./Configs/polybar/config.ini ~/.config/polybar/config.ini # If you want to display both connections
 $ cp -r ./Configs/picom ~/.config/picom
+$ cp -r ./Configs/alacritty ~/.config/alacritty
 ```
 
 Alternatively, you can make use of soft links for easier maintenance
 ```
 $ ln -sf ~/.config/i3 ./Configs/i3
 $ ln -sf ~/.config/picom ./Config/picom
+$ ln -sf ~/.config/alacritty ./Config/alacritty
 ```
 
 Don't forget to add these lines to your .profile (or your preferred startup file)
