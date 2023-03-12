@@ -41,7 +41,7 @@ Linux-and-Programming-Blogs-and-Podcasts----------
 News----------------------------------------------
 --------------------------------------------------
 "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" "News" "~New York Times"
-"https://rss.nytimes.com/services/xml/rss/nyt/World.xml" "News" "~New York Times World News"
+"https://www.nytimes.com/section/world/rss.xml" "News" "~New York Times World News"
 "https://rss.nytimes.com/services/xml/rss/nyt/US.xml" "News" "~New York Times US News"
 "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml" "News/Tech" "~New York Times Tech"
 "https://rss.nytimes.com/services/xml/rss/nyt/PersonalTech.xml" "News/Tech" "~New York Times Personal Tech"
@@ -50,11 +50,9 @@ News----------------------------------------------
 --------------------------------------------------
 Government/Military-------------------------------
 --------------------------------------------------
-"http://feeds.feedburner.com/army-times/news/your-army" "News" "Military" "~Army Times"
-"http://feeds.feedburner.com/army-times/education-transition" "Military" "~Military Education and Transition"
-"https://feeds.feedburner.com/fifth-domain/home" "Military" "Cyber Security" "~The Fifth Domain: Cyber"
-"https://feeds.feedburner.com/fifth-domain/dod" "Military" "Cyber Security" "~The Fifth Domain: Cyber(DoD)"
-"https://feeds.feedburner.com/fifth-domain/workforce" "Military" "Cyber Security" "~The Fifth Domain: Cyber(Workforce)"
+"https://www.armytimes.com/arc/outboundfeeds/rss/category/news/?outputType=xml" "News" "Military" "~Army Times"
+"https://www.armytimes.com/arc/outboundfeeds/rss/category/education-transition/?outputType=xml" "Military" "~Military Education and Transition"
+"https://www.c4isrnet.com/arc/outboundfeeds/rss/category/cyber/?outputType=xml" "Military" "Cyber Security" "~The Fifth Domain: Cyber"
 --------------------------------------------------
 Reddit--------------------------------------------
 --------------------------------------------------
@@ -64,9 +62,9 @@ Reddit--------------------------------------------
 "https://www.reddit.com/r/Python/.rss?sort=top "Reddit" "Programming" "~r/Python"
 "https://www.reddit.com/r/learnpython/.rss?sort=top "Reddit" "Programming" "~r/Learnpython"
 "https://www.reddit.com/r/AskReddit/.rss?sort=top" "Reddit" "~r/AskReddit"
-"https://www.reddit.com/r/jokes/.rss?sort=top "Reddit" "~r/Jokes"
+"https://www.reddit.com/r/Jokes/.rss?sort=top" "Reddit" "~r/Jokes"
 --------------------------------------------------
 Other---------------------------------------------
 --------------------------------------------------
 "https://feeds.feedburner.com/ScsSoftwaresBlog?format=xml" "Gaming" "~American Truck Simulator"
-"https://store.steampowered.com/feeds/news/app/621060/?cc=US&l=english&snr=1_2108_9__2107" "Gaming" "~PC Building Simulator"
+"https://www.pcbuildingsim.com/blog-feed.xml" "Gaming" "~PC Building Simulator"
