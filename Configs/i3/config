@@ -222,7 +222,7 @@ bindsym $mod+Shift+b exec /usr/bin/firefox '--private-window'
 bindsym $mod+Shift+d exec /usr/bin/discord
 bindsym $mod+Shift+p exec /usr/bin/packettracer
 
-exec --no-startup-id xautolock -time 5 -locker ~/.wallpaper/lockscreen.sh &
+exec --no-startup-id xautolock -time 30 -locker ~/.wallpaper/lockscreen.sh &
 
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
