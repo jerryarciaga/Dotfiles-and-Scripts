@@ -45,9 +45,11 @@ $ cp -r ./Configs/alacritty ~/.config/alacritty
 
 Alternatively, you can make use of soft links for easier maintenance
 ```
-$ ln -sf ~/.config/i3 ./Configs/i3
-$ ln -sf ~/.config/picom ./Config/picom
-$ ln -sf ~/.config/alacritty ./Config/alacritty
+$ ln -sf /home/jerry/.dotfiles/Configs/i3 /home/jerry/.config
+$ ln -sf /home/jerry/.dotfiles/Configs/i3status /home/jerry/.config
+$ ln -sf /home/jerry/.dotfiles/Configs/alacritty /home/jerry/.config
+$ ln -sf /home/jerry/.dotfiles/Configs/picom /home/jerry/.config
+$ ln -sf /home/jerry/.dotfiles/Configs/polybar /home/jerry/.config
 ```
 
 Don't forget to add these lines to your .profile (or your preferred startup file)
