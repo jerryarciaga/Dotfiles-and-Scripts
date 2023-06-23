@@ -221,6 +221,7 @@ bindsym $mod+b exec /usr/bin/firefox
 bindsym $mod+Shift+b exec /usr/bin/firefox '--private-window'
 bindsym $mod+Shift+d exec /usr/bin/discord
 bindsym $mod+Shift+p exec /usr/bin/packettracer
+bindsym $mod+Shift+g exec /usr/bin/gns3
 
 exec --no-startup-id xautolock -time 30 -locker ~/.wallpaper/lockscreen.sh &
 
