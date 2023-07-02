@@ -5,8 +5,8 @@ let g:tex_flavor = "latex"
 set number
 set paste
 
-set foldenable
-set foldmethod=indent
+set foldmethod=syntax
+set nofoldenable
 
 set expandtab
 set tabstop=4
