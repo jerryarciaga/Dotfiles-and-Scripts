@@ -37,7 +37,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- ~/.wallpaper/lockscreen.s
 exec --no-startup-id nm-applet
 
 # Gentoo users: Start PipeWire
-gentoo-pipewire-launcher &
+exec --no-startup-id gentoo-pipewire-launcher
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
