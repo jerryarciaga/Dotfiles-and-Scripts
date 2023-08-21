@@ -207,10 +207,12 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Custom keybindings
 ## System
-bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
-bindsym $mod+Right exec --no-startup-id brightnessctl set +5%
-bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
-bindsym $mod+Left exec --no-startup-id brightnessctl set 5%-
+#bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+#bindsym $mod+Right exec --no-startup-id brightnessctl set +5%
+#bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+#bindsym $mod+Left exec --no-startup-id brightnessctl set 5%-
+bindsym $mod+Right exec --no-startup-id /usr/bin/xbacklight -inc 5
+bindsym $mod+Left exec --no-startup-id /usr/bin/xbacklight -dec 5
 
 ## Screenshot
 bindsym Print exec --no-startup-id scrot /tmp/screenshot.png
