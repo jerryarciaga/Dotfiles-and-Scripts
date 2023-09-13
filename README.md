@@ -36,10 +36,12 @@ package manager if you use another distro.
 ```
 # emerge --ask x11-wm/i3 x11-misc/polybar x11-misc/i3lock x11-misc/picom media-gfx/feh media-gfx/imagemagick media-gfx/scrot media-gfx/maim x11-terms/alacritty media-fonts/fontawesome x11-misc/xautolock x11-misc/xss-lock
 ```
+
+### Install the Dotfiles
 Clone this repo
 ```
-$ git clone git@github.com:jerryarciaga/Dotfiles-and-Scripts
-$ cd Dotfiles-and-Scripts
+$ git clone git@github.com:jerryarciaga/Dotfiles-and-Scripts .dotfiles
+$ cd .dotfiles
 ```
 Copy config files into your config file directories:
 ```
@@ -49,7 +51,7 @@ $ cp -r ./Configs/picom ~/.config/picom
 $ cp -r ./Configs/alacritty ~/.config/alacritty
 ```
 
-Alternatively, you can make use of soft links for easier maintenance
+Alternatively, you can make use of soft links for easier maintenance.
 ```
 $ ln -sf $HOME/.dotfiles/Configs/i3 $HOME/.config
 $ ln -sf $HOME/.dotfiles/Configs/i3status $HOME/.config
@@ -58,7 +60,7 @@ $ ln -sf $HOME/.dotfiles/Configs/picom $HOME/.config
 $ ln -sf $HOME/.dotfiles/Configs/polybar $HOME/.config
 ```
 
-Don't forget to add these lines to your .profile (or your preferred startup file)
+Don't forget to add these lines to your .profile or your preferred startup file.
 ```
 feh --bg-fill ~/.wallpaper/(Your wallpaper)
 picom -b
