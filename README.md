@@ -60,5 +60,5 @@ picom -b
 
 For wallpapers and lockscreens:
 ```
-$ cp -r ./Wallpaper ~/.wallpaper # Alternatively: $ ln -sf ~/.wallpaper ./Wallpaper 
+$ cp -r ./Wallpaper ~/.wallpaper # Alternatively: $ ln -sf $HOME/.wallpaper ./Wallpaper 
 ```
