@@ -2,8 +2,8 @@
 
 ## Description
 Just like the repo name states, this is where I store my dotfiles and custom scripts
-for my Arch Linux + i3 layout. My lockscreen takes a screenshot, blurs it then
-overlays it with a random symbol.
+for my Arch Linux/Gentoo + i3 layout. My lockscreen takes a screenshot, blurs it
+then overlays it with a random symbol.
 
 ### Software Used
 - ***i3-wm, polybar, i3lock*** - My rice field
@@ -25,10 +25,16 @@ The wallpapers, overlay art and other images that I use are not in any way my pr
 I only store them in my repository for easier access.
 
 ## Getting Started
-Btw I use Arch. If you use another distro, you may or may not find these in your
-package manager.
+Btw I use Arch, but I've been using this dotfile repository on my Gentoo build, and
+it's working for me how I like it so far. You may or may not find these in your
+package manager if you use another distro.
+### Arch Linux
 ```
 # pacman -S i3-wm polybar i3lock picom feh imagemagick scrot maim alacritty ttf-font-awesome xautolock xss-lock
+```
+### Gentoo
+```
+# emerge --ask x11-wm/i3 x11-misc/polybar x11-misc/i3lock x11-misc/picom media-gfx/feh media-gfx/imagemagick media-gfx/scrot media-gfx/maim x11-terms/alacritty media-fonts/fontawesome x11-misc/xautolock x11-misc/xss-lock
 ```
 Clone this repo
 ```
