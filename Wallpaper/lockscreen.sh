@@ -11,7 +11,7 @@ fi
 
 # Take screenshot, blur image, overlay the randomly selected logo
 # onto it then set it as the lockscreen
-scrot $LOCKSCREEN
+scrot -z $LOCKSCREEN
 mogrify $LOCKSCREEN -blur $BLUR $LOCKSCREEN
 composite -gravity Center $OVERLAY $LOCKSCREEN $LOCKSCREEN
 i3lock -i $LOCKSCREEN
