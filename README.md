@@ -29,35 +29,37 @@ Btw I use Arch, but I've been using this dotfile repository on my Gentoo build, 
 it's working for me how I like it so far. You may or may not find these in your
 package manager if you use another distro.
 ### Arch Linux
+Run as root:
 ```
-# pacman -S i3-wm polybar i3lock picom feh imagemagick scrot maim alacritty ttf-font-awesome xautolock xss-lock
+pacman -S i3-wm polybar i3lock picom feh imagemagick scrot maim alacritty ttf-font-awesome xautolock xss-lock
 ```
 ### Gentoo
+Run as root:
 ```
-# emerge --ask x11-wm/i3 x11-misc/polybar x11-misc/i3lock x11-misc/picom media-gfx/feh media-gfx/imagemagick media-gfx/scrot media-gfx/maim x11-terms/alacritty media-fonts/fontawesome x11-misc/xautolock x11-misc/xss-lock
+emerge --ask x11-wm/i3 x11-misc/polybar x11-misc/i3lock x11-misc/picom media-gfx/feh media-gfx/imagemagick media-gfx/scrot media-gfx/maim x11-terms/alacritty media-fonts/fontawesome x11-misc/xautolock x11-misc/xss-lock
 ```
 
 ### Install the Dotfiles
 Clone this repo
 ```
-$ git clone git@github.com:jerryarciaga/Dotfiles-and-Scripts .dotfiles
-$ cd .dotfiles
+git clone git@github.com:jerryarciaga/Dotfiles-and-Scripts .dotfiles
+cd .dotfiles
 ```
 Copy config files into your config file directories:
 ```
-$ cp -r ./Configs/i3 ~/.config/i3
-$ cp ./Configs/polybar/config.ini ~/.config/polybar/config.ini 
-$ cp -r ./Configs/picom ~/.config/picom
-$ cp -r ./Configs/alacritty ~/.config/alacritty
+cp -r ./Configs/i3 ~/.config/i3
+cp ./Configs/polybar/config.ini ~/.config/polybar/config.ini 
+cp -r ./Configs/picom ~/.config/picom
+cp -r ./Configs/alacritty ~/.config/alacritty
 ```
 
 Alternatively, you can make use of soft links for easier maintenance.
 ```
-$ ln -sf $HOME/.dotfiles/Configs/i3 $HOME/.config
-$ ln -sf $HOME/.dotfiles/Configs/i3status $HOME/.config
-$ ln -sf $HOME/.dotfiles/Configs/alacritty $HOME/.config
-$ ln -sf $HOME/.dotfiles/Configs/picom $HOME/.config
-$ ln -sf $HOME/.dotfiles/Configs/polybar $HOME/.config
+ln -sf $HOME/.dotfiles/Configs/i3 $HOME/.config
+ln -sf $HOME/.dotfiles/Configs/i3status $HOME/.config
+ln -sf $HOME/.dotfiles/Configs/alacritty $HOME/.config
+ln -sf $HOME/.dotfiles/Configs/picom $HOME/.config
+ln -sf $HOME/.dotfiles/Configs/polybar $HOME/.config
 ```
 
 Don't forget to add these lines to your .profile or your preferred startup file.
@@ -68,7 +70,7 @@ picom -b
 
 For wallpapers and lockscreens:
 ```
-$ cp -r ./Wallpaper ~/.wallpaper # Alternatively: $ ln -sf $HOME/.wallpaper ./Wallpaper 
+cp -r ./Wallpaper ~/.wallpaper # Alternatively: $ ln -sf $HOME/.wallpaper ./Wallpaper 
 ```
 
 ## Screenshots
