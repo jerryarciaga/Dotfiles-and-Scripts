@@ -1,4 +1,4 @@
-# Dotfiles-and-Scripts
+# Dotfiles and Scripts
 
 ## Description
 Just like the repo name states, this is where I store my dotfiles and custom scripts
@@ -6,7 +6,7 @@ for my Arch Linux/Gentoo + i3 layout. My lockscreen takes a screenshot, blurs it
 then overlays it with a random symbol.
 
 ### Software Used
-- ***i3-wm, polybar, i3lock*** - My rice field
+- ***i3-wm, polybar, i3lock*** - My tiling window manager, status bar and lockscreen utility
 - ***picom*** - Effects such as transparency/opacity and window transition
 - ***feh*** - Wallpaper setter
 - ***xautolock, xss-lock*** - Screen locker
