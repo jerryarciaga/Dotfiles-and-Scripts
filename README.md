@@ -70,3 +70,10 @@ For wallpapers and lockscreens:
 ```
 $ cp -r ./Wallpaper ~/.wallpaper # Alternatively: $ ln -sf $HOME/.wallpaper ./Wallpaper 
 ```
+
+## Screenshots
+![Blank Screenshot (Idle)](https://github.com/jerryarciaga/Dotfiles-and-Scripts/blob/main/Screenshots/blank.png?raw=true)
+![Neofetch and Htop](https://github.com/jerryarciaga/Dotfiles-and-Scripts/blob/main/Screenshots/stats.png?raw=true)
+![Git Workflow](https://github.com/jerryarciaga/Dotfiles-and-Scripts/blob/main/Screenshots/git_commit.png?raw=true)
+![Lofi from the terminal](https://github.com/jerryarciaga/Dotfiles-and-Scripts/blob/main/Screenshots/lofi.png?raw=true)
+![File Management](https://github.com/jerryarciaga/Dotfiles-and-Scripts/blob/main/Screenshots/ranger.png?raw=true)
