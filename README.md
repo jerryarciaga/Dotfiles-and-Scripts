@@ -79,3 +79,7 @@ cp -r ./Wallpaper ~/.wallpaper # Alternatively: $ ln -sf $HOME/.wallpaper ./Wall
 ![Git Workflow](https://github.com/jerryarciaga/Dotfiles-and-Scripts/blob/main/Screenshots/git_commit.png?raw=true)
 ![Lofi from the terminal](https://github.com/jerryarciaga/Dotfiles-and-Scripts/blob/main/Screenshots/lofi.png?raw=true)
 ![File Management](https://github.com/jerryarciaga/Dotfiles-and-Scripts/blob/main/Screenshots/ranger.png?raw=true)
+
+## Lockscreens
+![Hydro Overlay](https://github.com/jerryarciaga/Dotfiles-and-Scripts/blob/main/Screenshots/lockscreen.png?raw=true)
+![Geo Overlay](https://github.com/jerryarciaga/Dotfiles-and-Scripts/blob/main/Screenshots/lockscreen2.png?raw=true)
