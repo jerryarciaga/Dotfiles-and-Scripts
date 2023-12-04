@@ -1,8 +1,8 @@
 #!/bin/bash
 
 LOCKSCREEN=/tmp/lockscreen.png
-GACHA=~/.wallpaper/gacha
-OVERLAY=$GACHA/$(ls $GACHA | shuf -n 1)
+LOGO=~/.wallpaper/logo
+OVERLAY=$LOGO/$(ls $LOGO | shuf -n 1)
 BLUR="0x9"
 
 if [ -a $LOCKSCREEN ]; then
