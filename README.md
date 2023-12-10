@@ -42,7 +42,7 @@ emerge --ask x11-wm/i3 x11-misc/polybar x11-misc/i3lock x11-misc/picom media-gfx
 ### Install the Dotfiles
 Clone this repo
 ```
-git clone git@github.com:jerryarciaga/Dotfiles-and-Scripts .dotfiles
+git clone git@github.com:jerryarciaga/Dotfiles-and-Scripts $HOME/.dotfiles
 cd .dotfiles
 ```
 Copy config files into your config file directories:
