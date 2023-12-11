@@ -48,29 +48,26 @@ cd .dotfiles
 Copy config files into your config file directories:
 ```
 cp -r ./Configs/i3 ~/.config/i3
-cp ./Configs/polybar/config.ini ~/.config/polybar/config.ini 
-cp -r ./Configs/picom ~/.config/picom
 cp -r ./Configs/alacritty ~/.config/alacritty
+cp -r ./Configs/picom ~/.config/picom
+cp ./Configs/polybar/config.ini ~/.config/polybar/config.ini 
+cp -r ./Wallpaper ~/.wallpaper
 ```
 
 Alternatively, you can make use of soft links for easier maintenance.
 ```
 ln -sf $HOME/.dotfiles/Configs/i3 $HOME/.config
-ln -sf $HOME/.dotfiles/Configs/i3status $HOME/.config
 ln -sf $HOME/.dotfiles/Configs/alacritty $HOME/.config
 ln -sf $HOME/.dotfiles/Configs/picom $HOME/.config
 ln -sf $HOME/.dotfiles/Configs/polybar $HOME/.config
+ln -sf $HOME/.dotfiles/Wallpaper $HOME/.wallpaper
 ```
 
 Don't forget to add these lines to your .profile or your preferred startup file.
+You can also put your favorite wallpapers in .dotfiles/Wallpaper
 ```
 feh --bg-fill ~/.wallpaper/(Your wallpaper)
 picom -b
-```
-
-For wallpapers and lockscreens:
-```
-cp -r ./Wallpaper ~/.wallpaper # Alternatively: $ ln -sf $HOME/.wallpaper ./Wallpaper 
 ```
 
 ## Screenshots
