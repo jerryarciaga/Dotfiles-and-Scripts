@@ -36,7 +36,7 @@ pacman -S i3-wm polybar i3lock picom feh imagemagick scrot maim alacritty ttf-fo
 ### Gentoo
 Run as root:
 ```
-emerge --ask x11-wm/i3 x11-misc/polybar x11-misc/i3lock x11-misc/picom media-gfx/feh media-gfx/imagemagick media-gfx/scrot media-gfx/maim x11-terms/alacritty media-fonts/fontawesome x11-misc/xautolock x11-misc/xss-lock
+emerge --ask x11-wm/i3 x11-misc/polybar x11-misc/i3lock x11-misc/picom media-gfx/feh media-gfx/imagemagick media-gfx/scrot media-gfx/maim x11-terms/alacritty media-fonts/fontawesome x11-misc/xautolock x11-misc/xss-lock media-video/pipewire
 ```
 
 ### Install the Dotfiles
