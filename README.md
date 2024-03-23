@@ -52,6 +52,8 @@ cp -r ./Configs/alacritty ~/.config/alacritty
 cp -r ./Configs/picom ~/.config/picom
 cp ./Configs/polybar/config.ini ~/.config/polybar/config.ini 
 cp -r ./Wallpaper ~/.wallpaper
+cp -r ./gtk-2.0 ~/.config/.
+cp -r ./gtk-3.0 ~/.config/.
 ```
 
 Alternatively, you can make use of soft links for easier maintenance.
@@ -60,6 +62,8 @@ ln -sf $HOME/.dotfiles/Configs/i3 $HOME/.config
 ln -sf $HOME/.dotfiles/Configs/alacritty $HOME/.config
 ln -sf $HOME/.dotfiles/Configs/picom $HOME/.config
 ln -sf $HOME/.dotfiles/Configs/polybar $HOME/.config
+ln -sf $HOME/.dotfiles/Configs/gtk-2.0 $HOME/.config
+ln -sf $HOME/.dotfiles/Configs/gtk-3.0 $HOME/.config
 ln -sf $HOME/.dotfiles/Wallpaper $HOME/.wallpaper
 ```
 
