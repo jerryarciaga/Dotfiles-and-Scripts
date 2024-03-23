@@ -23,7 +23,7 @@ if [[ -a $HOME/.dotfiles ]]
       echo -e "\tDONE"
       # alacritty
       echo -n "Linking config files for alacritty..."
-      ln -sf $HOME/.dotfiles/Wallpaper $HOME/.config/alacritty
+      ln -sf $HOME/.dotfiles/alacritty $HOME/.config/alacritty
       echo -e "\tDONE"
     else
       echo "$HOME/.dotfiles does not exist!"
