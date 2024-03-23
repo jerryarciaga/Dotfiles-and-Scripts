@@ -12,6 +12,10 @@ if [[ -a $HOME/.dotfiles ]]
       echo -n "Linking config files for picom..."
       ln -sf $HOME/.dotfiles/Configs/picom $HOME/.config
       echo -e "\tDONE"
+      # polybar
+      echo -n "Linking config files for polybar..."
+      ln -sf $HOME/.dotfiles/Configs/polybar $HOME/.config
+      echo -e "\tDONE"
       # gtk
       echo -n "Linking config files for gtk..."
       ln -sf $HOME/.dotfiles/Configs/gtk-2.0 $HOME/.config
@@ -23,7 +27,7 @@ if [[ -a $HOME/.dotfiles ]]
       echo -e "\tDONE"
       # alacritty
       echo -n "Linking config files for alacritty..."
-      ln -sf $HOME/.dotfiles/alacritty $HOME/.config
+      ln -sf $HOME/.dotfiles/Configs/alacritty $HOME/.config
       echo -e "\tDONE"
     else
       echo "$HOME/.dotfiles does not exist!"
